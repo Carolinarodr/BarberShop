@@ -4,20 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css"/>
     <title>BarberShop</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="/nosotros">Nosotros</a></li>
-          <li><a href="/servicios-precios">Servicios y precios</a></li>
-          <li><a href="">Barberos</a></li>
-          <li><a href=""></a>Contactos</li>
+    <header class="header">
+      <nav class="header-navigation"></nav>
+        <ul class="header-list">
+          <li  class="list-iten"><a href="#nosotros" class="header-link">Nosotros</a></li>
+          <li class="list-item"><a href="#servicios-precios" class="header-link">Servicios y precios</a></li>
+          <li class="list-item"><a href="#barberos" class="header-link">Barberos</a></li>
+          <li class="list-item"><a href="#contactos" class="header-link">Contactos</a></li>
         </ul>
       </nav>
-      <a href="tel:+380441111111">+380441111111</a>
-      <button>RESERVA EN LINEA</button>
+      <a href="tel:+380441111111" class="header-phone">+380441111111</a>
+      <button class="header-btn">RESERVA EN LINEA</button>
     </header>
     <main>
       <section>
@@ -25,7 +26,7 @@
           <li><a href="instagram"></a>Instagram</li>
           <li><a href="youtube"></a>Youtube</li>
         </ul>
-        <p>Barbería para hombres en Kiev</p>
+        <p class="titulo">Barbería para hombres en Kiev</p>
         <h1>Barbershop</h1>
         <p>
           Somos expertos en cortes de pelo de moda para hombres. Trabajamos con
@@ -34,10 +35,24 @@
       </section>
       <section>
         <ul>
-          <li><img src="images/imges1.jpg" alt="Corte de cabello" width="270px" height="" /></li>
-          <li><img src="images/imges2.jpg" alt="Corte de cabello" width="" height="" /></li>
+          <li>
+            <img
+              src="images/imges1.jpg"
+              alt="Corte de cabello"
+              width="270px"
+              height=""
+            />
+          </li>
+          <li>
+            <img
+              src="images/imges2.jpg"
+              alt="Corte de cabello"
+              width=""
+              height=""
+            />
+          </li>
         </ul>
-        <p>Nosotros</p>
+        <p id="nosotros">Nosotros</p>
         <h2>La mejor barbería de tu ciudad</h2>
         <p>
           Si quieres aumentar la confianza en tu look, sin duda estás en el
@@ -55,7 +70,7 @@
       </section>
       <section>
         <p>Disfruta de la compañía de los mejores maestros barberos</p>
-        <h2>Servicios y precios</h2>
+        <h2 id="servicios-precios">Servicios y precios</h2>
         <ul>
           <li>
             <p>Corte de pelo para hombre</p>
@@ -121,20 +136,35 @@
       </section>
       <section>
         <p>Para quienes de verdad valoran la “atmósfera”</p>
-        <h2>Nuestros Barberos</h2>
+        <h2 id="barberos">Nuestros Barberos</h2>
         <ul>
           <li>
-            <img src="images/imges3.jpg" alt="Barbero John" width="370" height="346" />
+            <img
+              src="images/imges3.jpg"
+              alt="Barbero John"
+              width="370"
+              height="346"
+            />
             <h3>John Smith</h3>
             <p>Extreme Barber</p>
           </li>
           <li>
-            <img src="images/imges4.jpg" alt="Barbero Michele" width="370" height="346" />
+            <img
+              src="images/imges4.jpg"
+              alt="Barbero Michele"
+              width="370"
+              height="346"
+            />
             <h3>Michele Doe</h3>
             <p>Extreme Barber</p>
           </li>
           <li>
-            <img src="images/imges5.jpg" alt="Barbero Alan" width="370" height="346" />
+            <img
+              src="images/imges5.jpg"
+              alt="Barbero Alan"
+              width="370"
+              height="346"
+            />
             <h3>Alan Black</h3>
             <p>Extreme Barber</p>
           </li>
