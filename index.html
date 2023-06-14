@@ -4,56 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css"/>
-    <title>BarberShop</title>
+    <title>Barbershop</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-navigation"></nav>
+      <nav class="header-navigation">
         <ul class="header-list">
-          <li  class="list-iten"><a href="#nosotros" class="header-link">Nosotros</a></li>
-          <li class="list-item"><a href="#servicios-precios" class="header-link">Servicios y precios</a></li>
-          <li class="list-item"><a href="#barberos" class="header-link">Barberos</a></li>
-          <li class="list-item"><a href="#contactos" class="header-link">Contactos</a></li>
+          <li class="list-item">
+            <a href="#nosotros" class="header-link">Nosotros</a>
+          </li>
+          <li class="list-item">
+            <a href="#servicios-precios" class="header-link"
+              >Servicios y Precios</a
+            >
+          </li>
+          <li class="list-item">
+            <a href="#barberos" class="header-link">Barberos</a>
+          </li>
+          <li class="list-item">
+            <a href="#contactos" class="header-link">Contactos</a>
+          </li>
         </ul>
       </nav>
-      <a href="tel:+380441111111" class="header-phone">+380441111111</a>
+      <a href="tel:+38044111111" class="header-phone">+38044111111</a>
       <button class="header-btn">RESERVA EN LINEA</button>
     </header>
     <main>
       <section>
         <ul>
-          <li><a href="instagram"></a>Instagram</li>
-          <li><a href="youtube"></a>Youtube</li>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Youtube</a></li>
         </ul>
-        <p class="titulo">Barbería para hombres en Kiev</p>
+
+        <p>Barberia para hobres en Kiev</p>
         <h1>Barbershop</h1>
         <p>
-          Somos expertos en cortes de pelo de moda para hombres. Trabajamos con
-          rapidez, cuidado y elegancia.
+          Somos expertos en cortes de pelo de moda para hombres.Trabajamos con
+          rapidez, cuidado y elegancia
         </p>
       </section>
+
       <section>
         <ul>
           <li>
             <img
               src="images/imges1.jpg"
-              alt="Corte de cabello"
-              width="270px"
-              height=""
+              alt="corte de barba"
+              width="270"
+              height="304"
             />
           </li>
           <li>
             <img
               src="images/imges2.jpg"
-              alt="Corte de cabello"
-              width=""
-              height=""
+              alt="corte de cabello atras"
+              width="270"
+              height="304"
             />
           </li>
         </ul>
-        <p id="nosotros">Nosotros</p>
-        <h2>La mejor barbería de tu ciudad</h2>
+
+        <p id="nosotros">NOSOTROS</p>
+        <h2>La mejor barbería en tu ciudad.</h2>
         <p>
           Si quieres aumentar la confianza en tu look, sin duda estás en el
           lugar indicado.
@@ -66,11 +79,13 @@
           estamos preparados para perfeccionar a todos los que acuden a
           nosotros!
         </p>
+
         <button>RESERVA EN LINEA</button>
       </section>
-      <section>
+
+      <section class="serviciosyprecios" id="servicios-precios">
         <p>Disfruta de la compañía de los mejores maestros barberos</p>
-        <h2 id="servicios-precios">Servicios y precios</h2>
+        <h2>Servicios y precios</h2>
         <ul>
           <li>
             <p>Corte de pelo para hombre</p>
@@ -89,6 +104,7 @@
             <p>desde 200 UAH.</p>
           </li>
         </ul>
+
         <ul>
           <li>
             <p>Corte con un pasante</p>
@@ -107,67 +123,142 @@
             <p>desde 200 UAH.</p>
           </li>
         </ul>
-        <button>RESERVA EN LINEA</button>
+
+        <button type="button">RESERVA EN LINEA</button>
       </section>
+
       <section>
-        <ul>
+        <ul class="section-clientes">
           <li>
             <span>600</span>
             <p>Clientes satisfechos cada día</p>
           </li>
           <li>
             <span>50</span>
-            <p>Premios</p>
+            <p>Premios a nuestra excelencia</p>
           </li>
           <li>
             <span>20</span>
             <p>De los mejores barberos de Kiev</p>
           </li>
-          <li>
-            <span>100</span>
-          </li>
+          <li><span>100</span></li>
         </ul>
-        <p>La vieja escuela</p>
+        <p>A la vieja escuela</p>
         <h2>¿Por qué nos prefieren a nosotros?</h2>
         <p>
           De nosotros sólo dicen cosas buenas. Pero es mejor verlo y sentirlo
           una vez, que leerlo 10 veces.
         </p>
       </section>
+
       <section>
         <p>Para quienes de verdad valoran la “atmósfera”</p>
-        <h2 id="barberos">Nuestros Barberos</h2>
+        <h3 id="barberos">Nuestros Barberos</h3>
         <ul>
           <li>
             <img
               src="images/imges3.jpg"
-              alt="Barbero John"
+              alt="Barbero John Smith"
               width="370"
               height="346"
             />
             <h3>John Smith</h3>
             <p>Extreme Barber</p>
           </li>
+
           <li>
             <img
               src="images/imges4.jpg"
-              alt="Barbero Michele"
+              alt="Barbero Michel Doe"
               width="370"
               height="346"
             />
             <h3>Michele Doe</h3>
             <p>Extreme Barber</p>
           </li>
+
           <li>
             <img
               src="images/imges5.jpg"
-              alt="Barbero Alan"
+              alt="Barbero Alan Black"
               width="370"
               height="346"
             />
             <h3>Alan Black</h3>
             <p>Extreme Barber</p>
           </li>
+
+          <!-- averiguar como se crean y vinculan los iconos con sus respectivas cuentas de las redes sociales -->
+        </ul>
+      </section>
+
+      <section class="test-img">
+        <p>la palabra barbería tiene sus raices en el latín</p>
+        <ul>
+          <li>
+            <img
+              src="imagenes/corteconnavaja4.jpg"
+              alt="corte  cabello con navaja"
+              width="270"
+              height="360"
+            />
+          </li>
+          <p>Extreme Barber</p>
+          <li>
+            <img
+              src=""
+              alt="apliando espuma en la cara"
+              width="270"
+              height="360"
+            />
+          </li>
+          <p>Extreme Barber</p>
+          <li>
+            <img
+              src=""
+              alt="toalla en la cara"
+              width="270"
+              height="360"
+            />
+          </li>
+          <p>Extreme Barber</p>
+          <li>
+            <img
+              src=""
+              alt="corte cabello con navaja atras"
+              width="270"
+              height="360"
+            />
+          </li>
+          <p>Extreme Barber</p>
+        </ul>
+      </section>
+      <footer>
+        <h2>Reserva en línea</h2>
+        <ul>
+          <li>nombre*</li>
+          <li>teléfono*</li>
+          <li>mensaje</li>
+        </ul>
+        <button type="button">ENVIAR</button>
+
+        <h2 id="contactos">Contacto</h2>
+        <address>
+          <ul>
+            <li><a href="#">calle Vasilkovaya, 7A Kiev, 08132</a></li>
+            <li><a href="#">+38 044 111 11 11</a></li>
+            <li><a href="#">barbershop@email.com</a></li>
+          </ul>
+
+          <p>Horario</p>
+          <p>Todos los días de 9:00 a 22:00</p>
+        </address>
+      </footer>
+
+      <section>
+        <ul>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Youtube</a></li>
         </ul>
       </section>
     </main>
